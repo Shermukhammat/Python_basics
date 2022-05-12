@@ -1,0 +1,16 @@
+#
+
+
+1.Quyidagi matnni aynan shunday ko'rinishda konsolda chiqaring:
+
+`"Nexia", "Tico", 'Damas' ko'rganlar qilar havas`
+
+
+Quyidagi misollarga yechimni Pythonda chiqaring. Har bir misoldan avval misol matnini izoh ko'rinishida yozing:
+1. 5 ning 4-darajasini toping
+2. 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
+3. Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
+4. Diametri 12 ga teng bo'lgan doiraning yuzini toping  ( $\pi=3.14$ deb oling)
+5. Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping ([Pifagor teoremasidan](https://fayllar.org/pifagor-teoremasi-va-uning-turli-hil-isbotlari-mavzusida-tajer.html) foydalaning)
+
+#### !! Javoblarni savol va yechim ko'rinishida chiqaring: `5 ning 4-darajasi 625` !!
