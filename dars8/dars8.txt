@@ -1,0 +1,57 @@
+#07.02.2022
+#08-DARS. RO'YXATLAR BILAN ISHLASH
+
+AMALIYOT:
+
+1.o'zingizga ma`lum davlatlarning ro'yhatini 
+ tuzing va ro'yhatni konsolga chiqaring 
+
+2.ro'yhatning uzunligini konsolga chiqaring
+
+3.sorted() funksiyasi orqali 
+ ro'yxatni tartiblangan holda konsolga chiqaring  
+
+4.sorted() funksiyasi orqali 
+ ro'yhatni teskari tartibda  konsolga chiqaring  
+
+5.Asil ro'yhatni qaytadan konsolga chiqaring
+
+6.reverse() metodi yordamida ro'yhatni 
+ ortidan boshlab chiqaring
+
+7.sort() metodi yordamida ro'yhatni avval
+ alifbo bo'yicha, keyin esa alifboga 
+ teskari tartibda konsolga chiqaring.
+
+8.120 dan 1200 gacha bo'lgan juft sonlar
+ ro'yhatini tuzing
+
+9.ro'yhatdagi sonlar yig'indisini hsoblang va
+ konsolga chiqaring.
+
+10.ro'yhatdagi eng katta va eng kichi son
+ o'rtasidagi ayirmani hsoblang va
+ konsolga chiqaring
+
+11.Ro'yhatdagi elementlar sonini hsoblang
+
+12.Ro'yhatning boshidan, o'rtasidan va oxiridan
+ 20ta qiymatni konsolga chiqaring
+
+13.taomlar degan ro'yhat yarating va 
+ ichiga istalgan 5ta taomni kriting.
+
+14.nonushta degan yangi ro'yxatga
+ taomlardan nusxa oling.
+
+15.Yangi ro'yhatda faqat nonushtaga 
+ yeyiladiag taomlarni qoldiring, va 
+ qo'shimcha yangi 2ta taom kriting.
+
+16.ikkala ro'yhatni ham (taomlar va
+nonushta) konsolga chiqaring.
+
+17.Yuqoridagi nonishta  ro'yhatini o'zgarmas
+ro'yhatga  aylantiring va nonushta[0] = "qaymoq
+va non" deb qiymat berib
+ko'ring.

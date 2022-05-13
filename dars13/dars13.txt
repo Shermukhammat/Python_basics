@@ -1,0 +1,12 @@
+#25.12.2021
+#13 GitHub PORTFOLIO
+
+
+AMALIYOT, 14:32  
+
+1. GitHub.com sahifasidan ro'yxatdan o'ting
+2. Kompyuteringizga GitHub Desktop dasturini o'rnating
+3. GitHubda Python darslari uchun yangi repository yarating
+4. Shu vaqtgacha yozgan kodlaringizni yangi repositoryga yuklang
+5. Sahifamizga qo'yib borilayotgan mashg'ulotlarning javoblarini quyidagi repositorydan o'zingizga Clone
+qilib oling: https://github.com/anvarnarz/python-darslar
