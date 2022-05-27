@@ -1,8 +1,7 @@
-print('\n1.Adabiyot (ilm-fan, san\'at, internet) olamidagi 4 ta mashxur shaxlar ')
-print('haqidagi ma\'lumotlarni lug\'at ko\'rinishida saqlang. Lug\'atlarni bitta ')
-print('ro\'yxatga joylang, va har bir shaxs haqidagi ma\'lumotni konsolga')
-print('chiqaring.')
-
+# 1.Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar 
+# haqidagi ma'lumotlarni lug'at ko'rinishida saqlang. Lug'atlarni bitta 
+# ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga
+# chiqaring.
 
 a_temur = {
     'shaxs' : 'amir temur',
