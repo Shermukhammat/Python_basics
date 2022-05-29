@@ -38,10 +38,11 @@ a_navoiy = {
 
 shaxslar = [a_temur, a_navoiy, j_rumiy, m_eshonqulov]
 
-for shaxs in shaxslar:
+
+for shaxs in shaxslar :
     print('------------------------------------------------------')
 
-    print(f"SHaxs: {shaxs['shaxs']}, tavallud topgan sanasi: "
+    print(f"shaxs: {shaxs['shaxs']}, tavallud topgan sanasi: "
         f"{shaxs['t_yil']}-yil {shaxs['t_sana']}-{shaxs['t_oy']}"
         f", tug'ulgan joyi {shaxs['t_joy']}")
 
