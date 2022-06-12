@@ -1,10 +1,24 @@
 1. Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. Foydalanuvchi stop so'zini yozishi bilan
-dasturni to'xtating27.12.2021, 11:20 #17 WHILE TSIKLI – Mohirdev
-https://mohirdev.uz/courses/python/lesson/17-while-tsikli-6/ 7/9
+dasturni to'xtating
+
 2. Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000
 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur
 foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi exit yoki quit deb yozganda
 dastur to'xtasin (ikkita shartni ham tekshiring).
 Yuqoridagi dasturni turli usullarda yozib ko'ring (break, ishora, yoki shart tekshirish)
+
 3. Quyidagi dasturda bir nechta mantiqiy xatolar bor. Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib
 qolmoqda. Xatolarni to'g'rilay olasizmi?
+
+savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+savol += "Musbat son kiriting "
+savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+while True:
+    qiymat = input(savol)
+    if qiymat<0:
+        continue
+    elif qiymat=='Exit':
+        break
+    else:
+        ildiz = float(qiymat)**(0.5)
+        print(f"{qiymat} ning ildizi {ildiz} ga teng")
