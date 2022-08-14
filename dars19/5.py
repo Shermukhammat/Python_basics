@@ -1,4 +1,6 @@
-# 5. Foydalanuvchidan x va y sonlarini olib, x^y ni konsolga chiqaruvchi 
+kk'k'j]j'j''jkl]j';
+'
+k\vl# 5. Foydalanuvchidan x va y sonlarini olib, x^y ni konsolga chiqaruvchi 
 # funksiya yozing.Yuqoridagi funksiyada y uchun 2 standart qiymatini bering.
 
 def daraja(son = 0, darajasi = 0) :

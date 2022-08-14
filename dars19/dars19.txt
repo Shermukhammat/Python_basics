@@ -7,9 +7,8 @@
 4. Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng
 bo'lsa "Sonlar teng" degan xabarni chiqaring.
 
-5. Foydalanuvchidan x va y sonlarini olib, ni konsolga chiqaruvchi funksiya yozing.
+5. Foydalanuvchidan x va y sonlarini olib, x^y ni konsolga chiqaruvchi funksiya yozing.Yuqoridagi funksiyada y uchun 2 standart qiymatini bering.
 
-6. Yuqoridagi funksiyada y uchun 2 standart qiymatini bering.
 
-7. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini
+6. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini
 tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.

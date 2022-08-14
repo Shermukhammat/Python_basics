@@ -11,14 +11,11 @@ def userinfo(name, surname, age, date_of_birth, origin, email = '' , number = No
 	Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, 
 	email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida 
 	qaytaruvchi funksiya.
-	email va number argumentlarini kiritishni ixtiyoriy qiling
+	email va number argumentlarini kiritishni ixtiyoriy qilidim
 	"""
-	if email:
-		#email = 'Nomalum'
-	if number:
-		#number2 = 'Nomalum'
-	else:
-		number2 = number
+	
+	# elif:
+	# 	number2 = number
 
 	user={
 	'ism' : name, 
@@ -27,23 +24,20 @@ def userinfo(name, surname, age, date_of_birth, origin, email = '' , number = No
 	'tugilgan_yil' : date_of_birth, 
 	'tugilgan_joy' : origin, 
 	'email' : email, 
-	'raqam' : number2
+	'raqam' : number
 	}
+	if email:
+		email = 'Nomalum'
+	if number:
+		number = 'Nomalum'
 
 	return user
 
  
-ism = 'SHermuhammad'
-familya = 'Temirov' 
-yosh = 19 
-tugilgan_yil = 2003
-tugilgan_joy = 'Qo\'shrabot'
-email = 'temirovshermukhammad@gmail.com'
-raqam = 998_97_395_40_03
 
-lugat = userinfo(ism, familya, yosh, tugilgan_yil, tugilgan_joy, email = email, number = raqam)
 
-print(type(lugat))
+lugat = userinfo('SHermuhammad', "Temirov", 19, 2003, 'Qo\'shrabot', email = 'temirovshermukhammad@gmail.com', number = 998_97_395_40_00)
+
 
 for kalit, qiymat in lugat.items():
 	print(f"\n{kalit} : {qiymat}")
