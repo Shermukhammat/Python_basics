@@ -7,14 +7,8 @@ def userinfo(name, surname, age, date_of_birth, origin, email = '' , number = No
 	Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, 
 	email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida 
 	qaytaruvchi funksiya.
-	email va number argumentlarini kiritishni ixtiyoriy qiling
-	"""
-	if email:
-		email = 'Nomalum'
-	if number:
-		number2 = 'Nomalum'
-	else:
-		number2 = number
+	email va number argumentlarini kiritishni ixtiyoriy qilidim
+		"""
 
 	user={
 	'ism' : name, 
@@ -22,48 +16,54 @@ def userinfo(name, surname, age, date_of_birth, origin, email = '' , number = No
 	'yosh' : age, 
 	'tugilgan_yil' : date_of_birth, 
 	'tugilgan_joy' : origin, 
-	'emayil' : email , 
-	'raqam' : number2
+	'email' : email, 
+	'raqam' : number
 	}
+	if email:
+		email = 'Nomalum'
+	if number:
+		number = 'Nomalum'
 
-	return user 
+	return user
 
-mijozlar = [] # mijozlar ro'yxati
-ishora = True # siklni  to'xtatish uchun ishora
-n = 0
-z = 0
+users = []
 
-while ishora: 
-	n=+1
-	ism = input(f'\nIltimos {n}-mijozning ismini kiriting:\n>>>')
-	familya = input(f'\nIltimos {n}-mijoz {ism}ning familyasini kiriting:\n>>>')
-	yosh = int(input(f'\nIltimos {n}-mijoz {ism}ning yoshini kiriting:\n(!faqat son kiriting!)\n>>>')) 
-	tugilgan_yil = int(input(f'\nIltimos {n}-mijoz {ism}ning \ntug\'ilgan yilini kiriting:\n(!faqat son kiriting!)\n>>>'))
-	tugilgan_joy = input(f'\nIltimos {n}-mijoz {ism}ning tug\'ilgan joyini kiriting:\n>>>')
-	emayil = input(f'\n{n}.{ism}ning emayili:\n>>>')
-	raqam = int(input(f'\n{n}.{ism}ning raqami:\n(!FAQAT RAQAM KIRITING!)\n>>>'))
-#	parametrlar = [ism, familya, yosh, tugilgan_yil, tugilgan_joy, emayil, raqam]
+ishora = True
 
-	mijozlar.append(userinfo(ism, familya, yosh, tugilgan_yil, tugilgan_joy, email=emayil, number=raqam))
+while ishora :
+	ism = input('Foydalanuvchi ismi:\n>>')
+	familya = input(f'{ism}ning familyasi:\n>>')
+	yosh = int(input(f"{ism} necha yoshda? \n>>"))
+	tugilgan_yil = int(input(f"{ism} nechanchi yilda tug'ilgan?\n>>"))
+	tugilgan_joy = input(f"{ism} qayerda tavallud topgan? \n>>")
+	
+	print('\nIxtyoriy ma`lumotlar:\n')
 
-
-	toxta = input("Yana malumot kiritasizmi!?(xa/yo'q)\n>>>")
-	if toxta == 'xa' :
-		print('...')
-
-	else:
-
-		ishora = False
-
-for mijoz in mijozlar:
-	z += 1
-	print(z)
-	for kalit, qiymat in mijoz.items():
-		print(f"{kalit} : {qiymat}.")
-print('Dastur toxtadi!')
-
-
+	a = input(f"{ism}ning emayilini kirtasizmi ? (xa\\yo'q)\n>>")
+	if a == 'xa':
+		emayil = input(f"{ism}ning emayili: \n>>")
+	else :
+		emayil = ''
 	
 
+	b = input(f"{ism}ning raqamini kiritasizmi? (xa\\yo'q)\n>>") 
+	if b == 'xa':
+		raqam = int(input(f"{ism}ning telefo'n raqami: \n>>"))
+	else:
+		raqam = None
 
+	users.append(userinfo(ism, familya, yosh, tugilgan_yil, tugilgan_joy, email = emayil, number = raqam))
 
+	sura = input('Yana malumot kiritasizmi? (xa\\yo\'q)\n>>')
+	if sura == 'xa':
+		ishora = True
+	else :
+		ishora = False
+
+	if ishora :
+		print('\n...')
+	else:
+		break
+
+for user in users :
+	print(user)
