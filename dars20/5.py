@@ -5,21 +5,31 @@
 def tub(boshla, toxta):
 	oraliq = list(range(boshla, toxta))
 	tub_sonlar = []
-
-
-	bol = 0
+	murakkab_sonlar = []
 	for son in oraliq:
+		ishora = True
+		buluvlar = list(range(2, son))
 		
-		while son >= bol:
-			bol+=1
-			natija = son % bol 
-			if natija == 0:
-				tub_sonlar.append(natija)
-				break
-			else:
-				print('...')
+
+		for buluv in buluvlar:
+			if son % buluv == 0 :
+				ishora = False
+			
+
+
+		if ishora and son != 1:
+			tub_sonlar.append(son)
+
+		else:
+			murakkab_sonlar.append(son)
 
 	return tub_sonlar
+
+
+
+
+
+
 
 boshla = int(input('Boshla:\n>>>'))
 toxta = int(input('To\'xta:\n>>>'))
