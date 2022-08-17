@@ -1,0 +1,10 @@
+#8.17.2022
+#21FUNKSYA VA RO’YXAT
+
+
+1.Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya yozing.
+
+2.Yuqoridagi funksiyani asl ro'yxatni o'zgartirmaydigan va yangi ro'yxat qaytaradigan qilib o'zgartiring
+
+3.Darsimiz davomida yozgan bahola funksiyasini .pop() metodidan foydalanmasdan va asl ro'yxatga
+o'zgartirish kiritmasdan faqat lug'at qaytaradigan qilib yozing.
