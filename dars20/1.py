@@ -12,10 +12,7 @@ def userinfo(name, surname, age, date_of_birth, origin, email = '' , number = No
 	email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida 
 	qaytaruvchi funksiya.
 	email va number argumentlarini kiritishni ixtiyoriy qilidim
-	"""
-	
-	# elif:
-	# 	number2 = number
+		"""
 
 	user={
 	'ism' : name, 
