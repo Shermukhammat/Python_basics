@@ -1,4 +1,4 @@
-"""
+ """
 1. Istalgancha sonlarni qabul qilib, ularning ko'paytmasini qaytaruvchi 
 funksiya yozing
 
