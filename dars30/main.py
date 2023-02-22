@@ -14,9 +14,10 @@ class SHaxs:
 
 
 class Talaba(SHaxs):
+    """ Talaba nomli klass"""
     def __init__(self, ism, familya, t_yil, davlat):
-        super().__init__(ism, familya, t_yil, davlat)
-        self.bosqich = 1 
+        self.ism = ism
+        self.f 
 
 
 
