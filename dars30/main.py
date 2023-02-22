@@ -16,7 +16,7 @@ class SHaxs:
 class Talaba(SHaxs):
     def __init__(self, ism, familya, t_yil, davlat):
         super().__init__(ism, familya, t_yil, davlat)
-        self.bosqich = 1
+        self.bosqich = 1 
 
 
 
